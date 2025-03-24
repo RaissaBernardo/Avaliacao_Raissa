@@ -16,8 +16,5 @@ A aplicação é **back-end** e faz uso de **endpoints**. O sistema usa Spring B
 5. Excluir empréstimo: Excluir um empréstimo já registrado.
 6. Consultas por data: Filtrar empréstimos pela data final.
 
-A aplicação é **back-end web** porque:
-1. Gerencia a lógica de negócios (controle de empréstimos, registros de clientes, etc.).
-2. APIs que podem ser consumidas por outras aplicações.
-3. Responde a requisições HTTP com dados.
+A aplicação de biblioteca é um software back-end, responsável por processar dados e fornecer funcionalidades sem interação direta com o usuário. Ela lida com o gerenciamento de empréstimos, livros e clientes, expondo APIs que podem ser consumidas por uma aplicação web. A principal diferença entre uma aplicação back-end e uma aplicação web é que o back-end processa as informações e a lógica de negócios, enquanto o front-end (aplicação web) interage diretamente com o usuário, exibindo dados e recebendo comandos. O front-end chama os endpoints da API do back-end para realizar operações como consultas ou registros.
 
