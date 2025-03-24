@@ -15,4 +15,8 @@ public class Emprestimo {
     private LocalDate dataFim;
     private Cliente cliente;
     private List<Livro> livrosEmprestados;
+
+    //fazendo o empController, me pediu para adicionar este metodo:
+    public Emprestimo(Cliente cliente, List<Livro> livros, String dataInicio, String dataFim) {
+    }
 }
